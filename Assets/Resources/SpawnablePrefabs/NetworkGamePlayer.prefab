@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &536342107360672105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536342107360672086}
+  - component: {fileID: 536342107360672087}
+  - component: {fileID: 4229778678719732396}
+  - component: {fileID: 8308208724543896584}
+  m_Layer: 0
+  m_Name: NetworkGamePlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &536342107360672086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536342107360672105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &536342107360672087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536342107360672105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  m_AssetId: 
+  hasSpawned: 0
+--- !u!114 &4229778678719732396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536342107360672105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075ba00e60549274d86cdeb7e6d0ba02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  displayName: Loading...
+  czyMoznaWykonacFunkcje: false
+  kartyWczytaneDoListy: 0
+  nrKolejnosci: 0
+  zasadyGry: {fileID: 8308208724543896584}
+  systemTur: {fileID: 0}
+  kartyNaRece: []
+  kartaNiesieciowaPrefab: {fileID: 6496201145852802955, guid: c0bcb4209fe0aea489fc0b0584470931, type: 3}
+  pionekKrasnolud: {fileID: 0}
+  kartaKrasnolud: {fileID: 0}
+  znacznikKrasnolud: {fileID: 0}
+  kartySkarbu: []
+  czyKartyWlaczone: 0
+--- !u!114 &8308208724543896584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536342107360672105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bba2419f0062fa4b90a46bee270ba8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  gracz: {fileID: 4229778678719732396}
+  kartaKliknieta: {fileID: 0}
+  polePlanszyKlikniete: {fileID: 0}
+  niezydentifikowanyObiekt: {fileID: 0}
+  polaPlanszyList: []
+  czyObozyStartoweNaSerwerzeWczytane: 0
+  czyPolaWczytane: 0
+  czyPolaStartoweWczytane: 0
